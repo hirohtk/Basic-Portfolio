@@ -1,0 +1,68 @@
+body {
+    line-height: 150%;
+    width: 150%;
+}
+
+#NameBox {
+    float: left;
+    color: red
+}
+#LinksBox {
+    float: right;
+}
+#hrClear {
+    clear:both;
+    
+    position:relative;
+    left: 0px;
+}
+
+.containerTop {
+    width: 960px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerBottom {
+    width: 960px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Split container into containerTop and containerBottom so that hr line
+wouldn't be part of the "container" */
+
+#sectionBox {
+    position: absolute;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+#myImage {
+    float: left;
+    
+    margin-right: 10px;
+}
+
+#paragraph {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+h1 {
+    margin-left: 20px;
+}
