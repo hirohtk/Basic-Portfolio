@@ -62,10 +62,10 @@ wouldn't be part of the "container" */
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid #dddddd;
     background: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 footer {
@@ -94,6 +94,7 @@ footer {
 
 h1 {
     margin-left: 20px;
+    color: #4aaaa5;
 }
 
 header {
@@ -102,9 +103,32 @@ header {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
     padding: auto;
     width: 100%;
+}
+
+hr {
+    width: 920px;
+}
+
+/* CONTACT CSS */
+
+.contactHeaders {
+    font-size: 10px;
+}
+
+#formSection {
+    margin-left: 20px;
+    margin-bottom: 3%;
+}
+
+input {
+    width: 800px;
+}
+
+#longInput {
+    height: 300px;
 }
