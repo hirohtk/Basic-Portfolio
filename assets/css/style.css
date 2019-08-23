@@ -44,6 +44,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .containerBottom {
@@ -51,6 +52,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /*Split container into containerTop and containerBottom so that hr line
@@ -66,7 +68,7 @@ wouldn't be part of the "container" */
     background: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    overflow: scroll;
+    
 }
 
 footer {
@@ -142,7 +144,7 @@ input {
     min-width: 918px;
 }
 
-#submitButton {
+.submitButton {
     width:15%;
     height:40px;
     background-color: #4aaaa5;
@@ -150,6 +152,16 @@ input {
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+input.submitButton:hover {
+    background: goldenrod;
+    transition: 0.5s;
+}
+
+#singleLine {
+    height: 20px;
+    font-size: 15px;
 }
 
 /* Portfolio CSS */
@@ -180,6 +192,7 @@ input {
     font-weight:bold;
     
 }
+
 
 #thumbnailBox2 {
     background-color:  #4aaaa5;
@@ -258,6 +271,7 @@ input {
 
 #WhiteLinks {
     color: #ffffff;
+    margin: 0 auto;
 }
 
 }
