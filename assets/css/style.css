@@ -10,6 +10,22 @@ body {
     
 }
 
+
+a.GrayLinks:hover {
+    color: #4aaaa5;
+    font-weight:bold;
+    
+}
+
+a.GrayLinks:active {
+    color:darkgoldenrod;
+}
+
+a.GrayLinks:focus {
+    color: turquoise;
+}
+
+
 #NameBox {
     float: left;
     color:White;
@@ -265,7 +281,7 @@ input.submitButton:hover {
     
 }
 
-#GrayLinks {
+.GrayLinks {
     color: #666666;
 }
 
